@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "非遗进校园巡演编排",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "县文化部门",
+    "学校联系人",
+    "非遗传承人"
+  ],
+  "states": [
+    "申请",
+    "暂占",
+    "确认",
+    "巡演",
+    "结算"
+  ],
+  "invariants": [
+    "档期冲突",
+    "路线间隔",
+    "过期释放",
+    "重启恢复"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-001-A",
+      "actor": "县文化部门",
+      "state": "申请"
+    },
+    {
+      "case_id": "09302-001-B",
+      "actor": "非遗传承人",
+      "state": "暂占"
+    }
+  ],
+  "tags": [
+    "heritage-tour",
+    "schedule-orchestration"
+  ]
+}
